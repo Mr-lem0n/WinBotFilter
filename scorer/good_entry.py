@@ -83,7 +83,7 @@ class JDScenario:
         - mu        : drift under the given regime (up / down / flat)
         - sigma     : diffusion volatility
         - N_t       : Poisson process with intensity lambda_jump
-        - J         : jump size (i.i.d.) with mean jump_mean, var jump_var
+        - J         : jump size (assumed i.i.d.) with mean jump_mean, var jump_var
 
     The scenario contains:
         - mu_up     : drift parameter under an "up" regime (positive)
